@@ -1,0 +1,3 @@
+LABEL=cloudimg-rootfs	/	 ext4	defaults	0 0
+LABEL=system-boot       /boot/firmware  vfat    defaults        0       1
+/dev/sda1 /home/clvillar/src vfat auto,uid=1001,gid=1001,utf8,dmask=027,fmask=137
